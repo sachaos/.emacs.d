@@ -10,3 +10,6 @@
 
 ;; expand region
 (global-set-key (kbd "C-o") 'er/expand-region)
+
+;; popwin prefix
+(global-set-key (kbd "C-x C-p") popwin:keymap)
