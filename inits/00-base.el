@@ -40,3 +40,9 @@
 ;; 同名ファイルのバッファ名の識別文字列を変更する
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+
+;; y or p
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; 行末の空白をハイライト
+(setq-default show-trailing-whitespace t)

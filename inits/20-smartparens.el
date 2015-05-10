@@ -3,7 +3,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (smartparens-global-mode t)
-(sp-pair "<% " " %>")
-(sp-pair "<%= " " %>")
-
 (show-smartparens-global-mode t)
+
+;; elisp
+;; ERB pair
+(sp-with-modes 'web-mode
+  (sp-local-pair "<% " " %>")
+  (sp-local-pair "<%= " " %>"))
