@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: rtest
+# key: rtest
+# binding: direct-keybinding
+# --
+RSpec.describe ${1:test target}, type: ${2::model} do
+  context "${3:status}" do
+    describe "${4:method}" do
+      context "${5:input}" do
+        it '${6:expected output}' do
+          $0
+        end
+      end
+    end
+  end
+end
