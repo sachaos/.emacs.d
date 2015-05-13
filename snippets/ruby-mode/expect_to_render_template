@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: expect_to_render_template
+# key: exprender
+# binding: direct-keybinding
+# --
+expect($0).to render_template ${1::index}

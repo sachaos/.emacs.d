@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: expect_to_redirect_to
+# key: expredirect
+# binding: direct-keybinding
+# --
+expect($1).to redirect_to ${0:root_path}

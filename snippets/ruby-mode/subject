@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: it
-# key: it
+# name: subject
+# key: sub
 # binding: direct-keybinding
 # --
-it { $0 }
+subject(${1::req}) { $0 }

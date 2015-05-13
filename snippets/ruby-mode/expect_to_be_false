@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: it
-# key: it
+# name: expect to be false
+# key: expfalse
 # binding: direct-keybinding
 # --
-it { $0 }
+expect($0).to be_falsey
