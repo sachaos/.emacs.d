@@ -28,3 +28,21 @@
 ;; helm-robe
 (require 'helm-robe)
 (custom-set-variables '(robe-completing-read-func 'helm-robe-completing-read))
+
+;;;;;;;;;;;;;;;;
+;; rcodetools ;;
+;;;;;;;;;;;;;;;;
+(require 'rcodetools)
+(setq rct-find-tag-if-available nil)
+(defun ruby-mode-hook-rcodetools ()
+  (define-key ruby-mode-map (kbd "<C-tab>") 'rct-complete-symbol)
+  (define-key ruby-mode-map (kbd "C-c C-e") 'xmp))
+
+(add-hook 'ruby-mode-hook 'ruby-mode-hook-rcodetools)
+(defun make-ruby-scratch-buffer ()
+  (with-current-buffer (get-buffer-create "*ruby scratch*")
+    (ruby-mode)
+    (current-buffer)))
+(defun ruby-scratch ()
+  (interactive)
+  (switch-to-buffer (make-ruby-scratch-buffer)))
