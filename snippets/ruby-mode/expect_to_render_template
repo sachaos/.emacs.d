@@ -3,4 +3,4 @@
 # key: exprender
 # binding: direct-keybinding
 # --
-expect($0).to render_template ${1::index}
+expect($1).to render_template ${0::index}
