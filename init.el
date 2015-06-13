@@ -36,6 +36,7 @@
     helm
     helm-ls-git
     helm-robe
+    helm-git-grep
     inf-ruby
     inflections
     init-loader
