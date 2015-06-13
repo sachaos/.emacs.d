@@ -10,3 +10,6 @@
 (sp-with-modes 'web-mode
   (sp-local-pair "<% " " %>")
   (sp-local-pair "<%= " " %>"))
+
+(sp-with-modes 'ruby-mode
+  (sp-local-pair "|" "|"))

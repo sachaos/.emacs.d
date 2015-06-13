@@ -11,6 +11,8 @@
 (setq ac-use-fuzzy t)          ;; 曖昧マッチ
 (global-auto-complete-mode t)
 
+(set-face-foreground 'ac-completion-face "brightgreen")
+
 ;; 補完ウィンドウ内のキーバインド
 (define-key ac-completing-map (kbd "C-n") 'ac-next) ;次の変換候補にカーソルを移動する.
 (define-key ac-completing-map (kbd "C-p") 'ac-previous) ;前の変換候補にカーソルを移動する．
