@@ -23,6 +23,7 @@
     sass-mode
     web-mode
     yaml-mode
+    lua-mode
     ac-inf-ruby
     async
     auto-compile
