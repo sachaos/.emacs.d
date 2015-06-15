@@ -5,8 +5,10 @@
 
 ;; web-modeのtagの色
 (require 'web-mode)
-(set-face-foreground 'web-mode-html-tag-face "brightblue")
+(set-face-foreground 'web-mode-html-tag-face "brightyellow")
 (set-face-foreground 'web-mode-html-tag-bracket-face "brightblue")
+(set-face-foreground 'web-mode-symbol-face "yellow")
+(set-face-foreground 'web-mode-html-attr-name-face "yellow")
 
 ;; undo-treeの色
 (set-face-foreground 'undo-tree-visualizer-default-face "brightcyan")
