@@ -30,3 +30,15 @@
           (lambda (frame) (set-background-mode frame solarized-default-background-mode)))
 
 (set-background-mode nil solarized-default-background-mode)
+
+;; カーソル行
+(defface hlline-face
+  '((((class color) (background dark))
+     (:background "black"))
+    (((class color) (background light))
+     (:background "black"))
+    (t ()))
+  "*Face used by hl-line.")
+(setq hl-line-face 'hlline-face)
+(global-hl-line-mode)
+

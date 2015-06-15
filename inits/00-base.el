@@ -24,10 +24,6 @@
 ;; 警告音の代わりに画面フラッシュ
 (setq visible-bell t)
 
-;; カーソル行に下線を表示
-(setq hl-line-face 'underline)
-(global-hl-line-mode)
-
 ;; file名の補完で大文字と小文字を区別しない
 (setq completion-ignore-case t)
 
