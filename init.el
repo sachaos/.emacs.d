@@ -80,3 +80,4 @@
 (setq init-loader-show-log-after-init 'error-only)
 (init-loader-load "~/.emacs.d/inits/")
 (put 'upcase-region 'disabled nil)
+(put 'narrow-to-region 'disabled nil)
