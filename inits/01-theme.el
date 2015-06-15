@@ -3,7 +3,7 @@
 ;;;;;;;;;;;
 
 ;; Solarized
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/elpa/color-theme-solarized-20150521.2134")
 
 (custom-set-variables '(solarized-termcolors 256))
 
