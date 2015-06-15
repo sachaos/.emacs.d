@@ -18,3 +18,6 @@
 ;; custom C-a and C-e
 (global-set-key "\C-a" 'beginning-of-visual-indented-line)
 (global-set-key "\C-e" 'end-of-visual-line)
+
+;; color describe
+(global-set-key (kbd "C-c c")     'describe-face-at-point)

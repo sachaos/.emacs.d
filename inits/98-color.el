@@ -11,3 +11,6 @@
 ;; undo-treeの色
 (set-face-foreground 'undo-tree-visualizer-default-face "brightcyan")
 (set-face-foreground 'undo-tree-visualizer-active-branch-face "white")
+
+;; volatile-highlightsの色
+(set-face-background 'vhl/default-face "white")
