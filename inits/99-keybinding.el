@@ -20,4 +20,7 @@
 (global-set-key "\C-e" 'end-of-visual-line)
 
 ;; color describe
-(global-set-key (kbd "C-c c")     'describe-face-at-point)
+(global-set-key (kbd "C-c c") 'describe-face-at-point)
+
+;; grep helm git
+(global-set-key (kbd "C-c g") 'helm-git-grep)
