@@ -7,3 +7,7 @@
 (require 'web-mode)
 (set-face-foreground 'web-mode-html-tag-face "brightblue")
 (set-face-foreground 'web-mode-html-tag-bracket-face "brightblue")
+
+;; undo-treeの色
+(set-face-foreground 'undo-tree-visualizer-default-face "brightcyan")
+(set-face-foreground 'undo-tree-visualizer-active-branch-face "white")
