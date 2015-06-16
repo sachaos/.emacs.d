@@ -33,6 +33,7 @@
     epl
     expand-region
     findr
+    flymake-ruby
     helm
     helm-ls-git
     helm-robe

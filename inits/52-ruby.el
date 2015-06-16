@@ -25,6 +25,10 @@
 (require 'robe)
 (add-hook 'ruby-mode-hook 'robe-mode)
 
+;; fly-make
+(require 'flymake-ruby)
+(add-hook 'ruby-mode-hook 'flymake-ruby-load)
+
 ;; helm-robe
 (require 'helm-robe)
 (custom-set-variables '(robe-completing-read-func 'helm-robe-completing-read))
