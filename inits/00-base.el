@@ -42,3 +42,7 @@
 
 ;; 行末の空白をハイライト
 (setq-default show-trailing-whitespace t)
+
+;; ロックされていた機能
+(put 'upcase-region 'disabled nil)
+(put 'narrow-to-region 'disabled nil)

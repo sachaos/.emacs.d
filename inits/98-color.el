@@ -15,4 +15,15 @@
 (set-face-foreground 'undo-tree-visualizer-active-branch-face "white")
 
 ;; volatile-highlightsの色
-(set-face-background 'vhl/default-face "white")
+(set-face-background 'vhl/default-face "color-238")
+
+;; hiline
+(defface hlline-face
+  '((((class color) (background dark))
+     (:background "color-234"))
+    (((class color) (background light))
+     (:background "color-234"))
+    (t ()))
+  "*Face used by hl-line.")
+(setq hl-line-face 'hlline-face)
+(global-hl-line-mode)
