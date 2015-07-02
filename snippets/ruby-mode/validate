@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: validate
+# key: validate
+# binding: direct-keybinding
+# --
+validates :${1:attribute}, ${0:presence: true}
