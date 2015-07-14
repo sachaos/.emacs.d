@@ -18,8 +18,6 @@
     coffee-mode
     emmet-mode
     haml-mode
-    git-commit-mode
-    git-rebase-mode
     markdown-mode
     sass-mode
     web-mode
@@ -44,6 +42,7 @@
     init-loader
     jump
     magit
+    git-commit
     packed
     paredit
     pkg-info
