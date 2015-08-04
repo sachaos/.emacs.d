@@ -25,6 +25,7 @@
     lua-mode
     go-mode
     go-autocomplete
+    go-eldoc
     ac-inf-ruby
     async
     auto-compile
