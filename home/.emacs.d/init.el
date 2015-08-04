@@ -23,6 +23,8 @@
     web-mode
     yaml-mode
     lua-mode
+    go-mode
+    go-autocomplete
     ac-inf-ruby
     async
     auto-compile
