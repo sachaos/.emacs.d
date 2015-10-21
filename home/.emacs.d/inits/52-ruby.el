@@ -50,3 +50,6 @@
 (defun ruby-scratch ()
   (interactive)
   (switch-to-buffer (make-ruby-scratch-buffer)))
+
+;; disable auto magic comment
+(setq ruby-insert-encoding-magic-comment nil)
