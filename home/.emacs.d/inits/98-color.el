@@ -1,8 +1,3 @@
-(defun describe-face-at-point ()
-  "Return face used at point."
-  (interactive)
-  (message "%s" (get-char-property (point) 'face)))
-
 ;; web-modeのtagの色
 (require 'web-mode)
 (set-face-foreground 'web-mode-html-tag-face "brightyellow")
@@ -27,3 +22,10 @@
   "*Face used by hl-line.")
 (setq hl-line-face 'hlline-face)
 (global-hl-line-mode)
+
+;; markdown-modeの色
+(set-face-foreground 'markdown-header-delimiter-face "brightred")
+(set-face-foreground 'markdown-header-face-1 "brightmagenta")
+(set-face-foreground 'markdown-header-face-2 "brightyellow")
+(set-face-foreground 'markdown-header-face-3 "brightcyan")
+(set-face-foreground 'markdown-header-face-4 "brightblue")

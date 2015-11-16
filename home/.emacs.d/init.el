@@ -83,3 +83,4 @@
 (add-to-list 'load-path "~/.emacs.d/elisp")
 (setq init-loader-show-log-after-init 'error-only)
 (init-loader-load "~/.emacs.d/inits/")
+(put 'set-goal-column 'disabled nil)
