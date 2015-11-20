@@ -24,8 +24,12 @@
 (global-hl-line-mode)
 
 ;; markdown-modeの色
-(set-face-foreground 'markdown-header-delimiter-face "brightred")
-(set-face-foreground 'markdown-header-face-1 "brightmagenta")
-(set-face-foreground 'markdown-header-face-2 "brightyellow")
-(set-face-foreground 'markdown-header-face-3 "brightcyan")
-(set-face-foreground 'markdown-header-face-4 "brightblue")
+(defun markdown-mode-hooks ()
+  (progn
+    (set-face-foreground 'markdown-header-delimiter-face "brightred")
+    (set-face-foreground 'markdown-header-face-1 "brightmagenta")
+    (set-face-foreground 'markdown-header-face-2 "brightyellow")
+    (set-face-foreground 'markdown-header-face-3 "brightcyan")
+    (set-face-foreground 'markdown-header-face-4 "brightblue")))
+
+(add-hook 'markdown-mode-hook 'markdown-mode-hooks)
