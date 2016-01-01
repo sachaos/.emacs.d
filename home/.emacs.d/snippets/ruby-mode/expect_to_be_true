@@ -1,4 +1,4 @@
-# -*- mode: snippet; require-final-newline: nil -*-
+k# -*- mode: snippet; require-final-newline: nil -*-
 # name: expect to be true
 # key: extrue
 # binding: direct-keybinding
